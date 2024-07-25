@@ -30,11 +30,11 @@
     }
     @font-face {
       font-family: 'Liver';
-      src: url('Liver.woff2');
+      src: url('font/Liver.woff2');
     }
     @font-face {
       font-family: 'Liver-mono';
-      src: url('Liver_mono.woff2');
+      src: url('font/Liver_mono.woff2');
     }
     #content {
       display: block;
@@ -67,7 +67,7 @@
       background: #888;
     }
     .sep {
-      background: #555;
+      background: #333;
     }
     </style>
   </head>
@@ -80,6 +80,25 @@
       <hr/>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <br/>
+        Here are some of my links:
+        <ul>
+          <li>
+            <a href="https://github.com/8bitprodigy">
+              Github Profile
+            </a>
+          </li>
+          <li>
+            <a href="https://codeberg.org/chris_deboy">
+              Codeberg Profile
+            </a>
+          </li>
+          <li>
+            <a href="https://codeberg.org/San_Bernardino_Operation">
+              San Bernardino Operation on Codeberg
+            </a>
+          </li>
+        </ul>
       </p>
       <hr/>
       <h2>
@@ -159,7 +178,7 @@
         </p>
         <hr class="sep"/>
         <h3>
-          <a href="">
+          <a href="https://codeberg.org/chris_deboy/GameBoy_Roguelike">
             GameBoy Roguelike
           </a>
         </h3>
@@ -174,25 +193,57 @@
           <a href="https://github.com/8bitprodigy/nrpnc">
             <img src="img/nrpnc.svg" alt="Nim Reverse Polish Notation Calculator" />
           </a>
+          <br />
+          <br />
+          <img src="img/nrpnc_screenshot.png" alt="Demonstration of nrpnc, showing function declaration, calling one function from another, and some simple addition." />
         </h3>
         <p>
-          This is an RPN (Reverse Polish Notation) calculator in Nim. It operates on a stack-based language with if/else statements, variables, and function declaration.
+          This is an RPN (Reverse Polish Notation) calculator in Nim. It operates with a stack-based language with if/else statements, variables, and function declaration, which should, in theory, make it turing-complete.
         </p>
         <hr class="sep"/>
         <h3>
           <a href="https://github.com/8bitprodigy/nute">
             N.U.T.E.
           </a>
+          <br />
+          <br />
+          <img src="img/nute_screenshot.png" alt="Demonstration of nute, a simple line text editor." />
         </h3>
         <p>
-          The Nim Unstructured/Useless Text Editor. I made this as an exercise to learn Nim and make use of its built in types. It stores a document line by line in an AVL tree, and it makes editing the text document much like entering a program into an 80's microcomputer. To enter text, you type the number for its line, followed by a space, and then the text you wish to enter. If there's a line number collision, it replaces the old line, but if not, it's entered into the AVL tree, which then self-balances.
+          The Nim Unstructured/Useless Text Editor. This is a line text editor I made as an exercise to learn Nim and make use of its built in types. It stores a document line by line in an AVL tree, and it makes editing the text document much like entering a program into an 80's microcomputer. To enter text, you type the number for its line, followed by a space, and then the text you wish to enter. If there's a line number collision, it replaces the old line, but if not, it's entered into the AVL tree, which then self-balances.
+        </p>
+        <hr class="sep"/>
+        <h3>
+          <a href="https://codeberg.org/San_Bernardino_Operation/AtlasWM">
+            <img src="img/awm_logo.svg" alt="Atlas Window Manager" />
+          </a>
+          <br />
+          <br />
+          <img src="img/awm_screenshot.png" alt="Demonstration of nrpnc, showing function declaration, calling one function from another, and some simple addition." />
+        </h3>
+        <p>
+          This is the Atlas Window Manager. AtlasWM aims to be a lightweight, but featureful, and user-friendly window manager for X11, based on Joe's Window Manager (JWM), that only uses permissively-licensed code and libraries, as it will be the default window manager for AcephalOS and eventually PrometheusOS.
+          <br/>
+          I intend to extend its features, with some of the main ones being tababble windows, like in Haiku or FluxBox, and a global menu panel item.
+          <br/>
+          AtlasWM is currently in alpha stages, and most planned features are not yet implemented. Many things are likely subject to change, so it is not recommended for daily use.
         </p>
       <hr class="cat"/>
       <h2>
         Graphic Design
       </h2>
       <hr class="sep"/>
-
+        <h3>
+          <a href="https://github.com/8bitprodigy/liver">
+            <img src="img/liver.svg" alt="The Liver typeface" />
+          </a>
+        </h3>
+        <p>
+          This is the typeface used throughout this document. Liver is a public-domain sans-serif font in the style of Goma/Shin-Go/Rodin/Saira, modeled with screens in mind.
+          <br />
+          <br />
+          Comes in regular and mono variants. Bold variant in the works.
+        </p>
       <hr class="cat"/>
       <h2>
         3D Art & Animation

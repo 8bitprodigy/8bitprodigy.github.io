@@ -39,7 +39,7 @@
     #content {
       display: block;
       width: 800px;
-      position: absolute;
+      position: relative;
       border: 4px solid #fff;
       padding: 8px;
       left: 50%;
@@ -69,6 +69,7 @@
     .sep {
       background: #333;
     }
+
     </style>
   </head>
   <body>
@@ -160,9 +161,9 @@
         <p>
           This is a mech controller demo I created in the Godot game engine. It is a minimal proof-of-concept and includes the following features:
           <ul>
-            <li>Tank reticle to show leg rotation relative to turret rotation</li>
-            <li>Aiming is driven by mouse direction, rather than mapped directly to movement.</li>
-            <li>movement is relative to leg rotation. Legs are rotated by key inputs.</li>
+            <li>Tank reticle to show leg orientation relative to turret orientation</li>
+            <li>Aiming is driven by mouse direction, rather than mapped directly to mouse movement.</li>
+            <li>movement is relative to leg orientation. Legs are rotated by key inputs.</li>
             <li>Thrusters/jet pack</li>
             <li>Skybox and endless plane visualizer</li>
           </ul>
@@ -181,7 +182,7 @@
           <ul>
             <li>Six degrees of rotation</li>
             <li>Angular inertia</li>
-            <li>Movement along all 3 axes relative to rotation</li>
+            <li>Movement along all 3 axes relative to orientation</li>
             <li>Networked player controllers</li>
             <li>Skybox</li>
           </ul>
@@ -246,7 +247,9 @@
         <p>
           This is the Atlas Window Manager. AtlasWM aims to be a lightweight, but featureful, and user-friendly window manager for X11, based on Joe's Window Manager (JWM), that only uses permissively-licensed code and libraries, as it will be the default window manager for AcephalOS and eventually PrometheusOS.
           <br/>
-          I intend to extend its features, with some of the main ones being tababble windows, like in Haiku or FluxBox, and a global menu panel item.
+          <br/>
+          Currently, I've replaced Cairo/libRSVG with <a href="https://github.com/sammycage/plutosvg" alt="Link to the PlutoSVG Github repo.">PlugoSVG</a>, and have enhanced the customizability of the motif theme to enable greater readability, and am currently working on replacing Pango/XFT with <a href="https://github.com/tomolt/libschrift" alt="Link to the libSchrift Github repo.">libSchrift</a>. I intend to extend its features, with some of the main ones being tababble windows, like in Haiku or FluxBox, and a global menu panel item.
+          <br/>
           <br/>
           AtlasWM is currently in alpha stages, and most planned features are not yet implemented. Many things are likely subject to change, so it is not recommended for daily use.
         </p>

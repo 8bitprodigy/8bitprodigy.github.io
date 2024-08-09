@@ -83,6 +83,7 @@
     }
 
     </style>
+    <script src="scripts.js" type="text/javascript"></script>
   </head>
   <body>
     <div id="content">
@@ -169,17 +170,27 @@
         Programming
       </h2>
       <hr class="sep"/>
-        <h3>
+        <h3 id="FPS_CONTROLLER">
           <a href="https://github.com/8bitprodigy/WestMonster_FPS_Base">
             Godot FPS Controller
           </a>
         </h3>
-        <video width="720px" controls>
+        <video id="fps_controller"  width="720px" controls>
           <source src="videos/fps_controller_1.mp4" type="video/mp4" />
         </video>
-        <video width="720px" controls>
-          <source src="videos/fps_controller_2.mp4" type="video/mp4" />
-        </video>
+        <center>
+          <a id="fps_1" href="#FPS_CONTROLLER" onclick="changeVideoSrc('fps_controller', 'fps_controller_1')">
+            Demo 1
+          </a>
+          &emsp;|&emsp;
+          <a id="fps_2" href="#FPS_CONTROLLER" onclick="changeVideoSrc('fps_controller', 'fps_controller_2')">
+            Demo 2
+          </a>
+          &emsp;|&emsp;
+          <a id="fps_3" href="#FPS_CONTROLLER" onclick="changeVideoSrc('fps_controller', 'fps_controller_3')">
+            Demo 3
+          </a>
+        </center>
         <p>
           This is a first person shooter controller I made in the Godot engine. I got pretty far along and it includes the following features:
           <ul>
@@ -213,17 +224,26 @@
           </ul>
         </p>
       <hr class="sep"/>
-        <h3>
+        <h3 id="6DOF_CONTROLLER">
           <a href="https://github.com/8bitprodigy/6DOF_Demo">
             6DOF Controller Demo
           </a>
         </h3>
-        <video width="720px" controls>
+        <video id="6dof_controller" width="720px" controls>
           <source src="videos/6dof_demo_1.mp4" type="video/mp4" />
         </video>
-        <video width="720px" controls>
+        <center>
+          <a id="6dof_1" href="#6DOF_CONTROLLER" onclick="changeVideoSrc('6dof_controller', '6dof_demo_1')">
+            Demo 1
+          </a>
+          &emsp;|&emsp;
+          <a id="6dof_2" href="#6DOF_CONTROLLER" onclick="changeVideoSrc('6dof_controller', '6dof_demo_2')">
+            Demo 2
+          </a>
+        </center>
+        <!--video width="720px" controls>
           <source src="videos/6dof_demo_2.mp4" type="video/mp4" />
-        </video>
+        </video-->
         <p>
           This is a six degrees of freedom (like in the Descent series) controller demo I created in the Godot game engine. It is a minimal proof-of-concept and includes the following features:
           <ul>

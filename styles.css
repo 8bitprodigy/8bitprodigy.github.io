@@ -13,6 +13,11 @@
   --background: #000;
 }
 
+.spacer {
+    display: flex;
+    flex-grow: 1;
+}
+
 * {
   font-family: 'Liver';
   line-height: 1;

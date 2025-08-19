@@ -112,7 +112,7 @@ This is a six degrees of freedom (like in the Descent series) controller demo I 
 
 ---
 
-### [RZZNNV2N]([RZZNNV2N by 8bitprodigy](https://8bitprodigy.itch.io/rzznnv2n))
+### [RZZNNV2N](https://8bitprodigy.itch.io/rzznnv2n)
 
 ![RZZNNV2N.jpg](img/RZZNNV2N.jpg)
 

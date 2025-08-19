@@ -1,4 +1,3 @@
-<script src="scripts.js" type="text/javascript"></script>
 ![name.svg](/home/chris/Projects/8bitprodigy.github.io/img/name.svg)
 
 ---
@@ -19,7 +18,7 @@ Here are some links to my profiles:
 - [Codeberg Profile](https://codeberg.org/chris_deboy)
 - [San Bernardino Operation on Codeberg](https://codeberg.org/San_Bernardino_Operation)
 - [Itch.io](https://8bitprodigy.itch.io/)
-- [Twitter/X](https://twitter.com/8bitProdigy)
+- [LinkedIn](https://www.linkedin.com/in/christopher-deboy-0aa48278/)
 
 **Portfolio Sections:**
 

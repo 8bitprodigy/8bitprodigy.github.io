@@ -1,4 +1,4 @@
-![name.svg](/home/chris/Projects/8bitprodigy.github.io/img/name.svg)
+![name.svg](img/name.svg)
 
 ---
 
@@ -31,7 +31,7 @@ Here are some links to my profiles:
 
 ## Contact
 
-![contact.svg](/home/chris/Projects/8bitprodigy.github.io/img/contact.svg)
+![contact.svg](img/contact.svg)
 
 ---
 
@@ -114,7 +114,7 @@ This is a six degrees of freedom (like in the Descent series) controller demo I 
 
 ### [RZZNNV2N]([RZZNNV2N by 8bitprodigy](https://8bitprodigy.itch.io/rzznnv2n))
 
-![RZZNNV2N.jpg](/home/chris/Projects/8bitprodigy.github.io/img/RZZNNV2N.jpg)
+![RZZNNV2N.jpg](img/RZZNNV2N.jpg)
 
 This is a simple challenge game I made, where you navigate a helicopter through a gauntlet of challenges, increasing in difficulty with each level. Made in Godot 2.X, it was a sequel to my prior game, [RZZNNVZN](https://8bitprodigy.itch.io/rzznnvzn), which was made in JavaScript using [MelonJS](https://melonjs.org/).
 
@@ -211,9 +211,9 @@ This is a work-in-progress roguelike I've been working on for the GameBoy in C a
 
 ### [NRPNC](https://github.com/8bitprodigy/nrpnc)
 
-![nrpnc.svg](/home/chris/Projects/8bitprodigy.github.io/img/nrpnc.svg)
+![nrpnc.svg]( img/nrpnc.svg)
 
-![nrpnc_screenshot.png](/home/chris/Projects/8bitprodigy.github.io/img/nrpnc_screenshot.png)
+![nrpnc_screenshot.png]( img/nrpnc_screenshot.png)
 
 This is an RPN (Reverse Polish Notation) calculator in Nim. It operates with a stack-based language with if/else statements, variables, and function declaration, which should, in theory, make it turing-complete.
 
@@ -221,7 +221,7 @@ This is an RPN (Reverse Polish Notation) calculator in Nim. It operates with a s
 
 ### [N.U.T.E.](https://github.com/8bitprodigy/nute)
 
-![nute_screenshot.png](/home/chris/Projects/8bitprodigy.github.io/img/nute_screenshot.png)
+![nute_screenshot.png]( img/nute_screenshot.png)
 
 The Nim Unstructured/Useless Text Editor. This is a line text editor I made as an exercise to learn Nim and make use of its built in types. It stores a document line by line in an AVL tree, and it makes editing the text document much like entering a program into an 80's microcomputer. To enter text, you type the number for its line, followed by a space, and then the text you wish to enter. If there's a line number collision, it replaces the old line, but if not, it's entered into the AVL tree, which then self-balances.
 
@@ -229,9 +229,9 @@ The Nim Unstructured/Useless Text Editor. This is a line text editor I made as a
 
 [AtlasWM](https://codeberg.org/San_Bernardino_Operation/AtlasWM)
 
-![awm_logo.svg](/home/chris/Projects/8bitprodigy.github.io/img/awm_logo.svg)
+![awm_logo.svg]( img/awm_logo.svg)
 
-![awm_screenshot.png](/home/chris/Projects/8bitprodigy.github.io/img/awm_screenshot.png)
+![awm_screenshot.png]( img/awm_screenshot.png)
 
 This is the Atlas Window Manager. AtlasWM aims to be a lightweight, but featureful, and user-friendly window manager for X11, based on Joe's Window Manager (JWM), that only uses permissively-licensed code and libraries, as it will be the default window manager for AcephalOS and eventually PrometheusOS.  
 
@@ -511,7 +511,7 @@ Various retro/synthwave desktop wallpapers I've created in Blender3D.
 
 ### [Liver](https://github.com/8bitprodigy/liver)
 
-![liver.svg](/home/chris/Projects/8bitprodigy.github.io/img/liver.svg)
+![liver.svg]( img/liver.svg)
 
 This is the typeface used throughout this document. Liver is a public-domain sans-serif font in the style of Goma/Shin-Go/Rodin/Saira, modeled with screens in mind.  
 
@@ -522,7 +522,7 @@ Comes in regular and mono variants. Bold variant in the works.
 ## Logos
 
 
-![AcephalOS_logo.png](/home/chris/Projects/8bitprodigy.github.io/img/AcephalOS_logo.png)
+![AcephalOS_logo.png]( img/AcephalOS_logo.png)
 
 #### AcephalOS logo
 
@@ -530,7 +530,7 @@ Logo I made for a FreeBSD-based OS I am working on.
 
 
 
-![san_bernardino_operation.png](/home/chris/Projects/8bitprodigy.github.io/img/san_bernardino_operation.png)
+![san_bernardino_operation.png]( img/san_bernardino_operation.png)
 
 #### San Bernardino Operation logo
 
@@ -538,19 +538,19 @@ Logo I made for the organization to work on AcephalOS.
 
 
 
-![iortcw.png](/home/chris/Projects/8bitprodigy.github.io/img/iortcw.png)
+![iortcw.png]( img/iortcw.png)
 
 #### ioRTCW
 
 
 
-![Newioq3.png](/home/chris/Projects/8bitprodigy.github.io/img/Newioq3.png)
+![Newioq3.png]( img/Newioq3.png)
 
 #### Old ioQuake3 logo
 
 
 
-![logoFinal2.png](/home/chris/Projects/8bitprodigy.github.io/img/logoFinal2.png)
+![logoFinal2.png]( img/logoFinal2.png)
 
 #### The Gore Effect Facebook logo
 

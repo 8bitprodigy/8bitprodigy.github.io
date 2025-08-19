@@ -24,18 +24,18 @@ Here are some links to my profiles:
 
 - [Contact info](#contact)
 - [Programming](#programming)
-- [3D Art & Animation](#3d_art_animation)
-- [Graphic Design](#graphic_design)
+- [3D Art & Animation](#3d-art-&-animation)
+- [Graphic Design](#graphic-design)
 
 ---
 
-## Contact {#contact}
+## Contact
 
 ![contact.svg](img/contact.svg)
 
 ---
 
-# Programming {#programming}
+# Programming
 
 ---
 
@@ -241,7 +241,7 @@ AtlasWM is currently in alpha stages, and most planned features are not yet impl
 
 ---
 
-## 3D Art & Animation {#3d_art_animation}
+## 3D Art & Animation
 
 Some 3D models I've worked on, some of which are animated. This is an incomplete list.
 
@@ -505,7 +505,7 @@ Various retro/synthwave desktop wallpapers I've created in Blender3D.
 
 ---
 
-# Graphic Design {#graphic_design}
+# Graphic Design
 
 ---
 

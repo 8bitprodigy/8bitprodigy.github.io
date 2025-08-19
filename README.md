@@ -29,7 +29,7 @@ Here are some links to my profiles:
 
 ---
 
-## Contact
+# Contact
 
 ![contact.svg](img/contact.svg)
 

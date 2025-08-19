@@ -7,6 +7,7 @@ Christopher DeBoy's Portfolio
         <style>
             @import url("styles.css");
 
+@import url("/styles.css");
         </style>
         <script src="scripts.js" type="text/javascript"></script>
     </head>
@@ -15,10 +16,8 @@ Christopher DeBoy's Portfolio
             <div class="nerc" id="links">
 <a href="https://frop.prof">Home</a>&nbsp;|&nbsp;<a href="https://8bit.frop.prof">Main</a>&nbsp;|&nbsp;<a href="https://luke.frop.prof">Luke</a><span class="spacer" ></span><a href="https://8bitprodigy.github.io/">My Portfolio</a>
             </div>
-            <div id="body">
-                <span class="nerc" id="content">
-<script src="scripts.js" type="text/javascript"></script>
-<p><img src="/home/chris/Projects/8bitprodigy.github.io/img/name.svg" alt="name.svg" /></p>
+            <div class="nerc" id="content">
+<p><img src="img/name.svg" alt="name.svg" /></p>
 <hr />
 <p>My name is Christopher DeBoy, and I'm an aspiring game developer and graphic designer/artist. I'm most familiar with the Godot Game Engine and its GDScript scripting language, having worked with it for over 8 years and developed quite a few comprehensive systems in it. <strong>If you're interested in hiring me, <a href="https://8bitprodigy.github.io/#contact">feel free to reach out</a></strong></p>
 <p>Here's a list of languages I'm most familiar with:</p>
@@ -35,7 +34,7 @@ Christopher DeBoy's Portfolio
 <li><a href="https://codeberg.org/chris_deboy">Codeberg Profile</a></li>
 <li><a href="https://codeberg.org/San_Bernardino_Operation">San Bernardino Operation on Codeberg</a></li>
 <li><a href="https://8bitprodigy.itch.io/">Itch.io</a></li>
-<li><a href="https://twitter.com/8bitProdigy">Twitter/X</a></li>
+<li><a href="https://www.linkedin.com/in/christopher-deboy-0aa48278/">LinkedIn</a></li>
 </ul>
 <p><strong>Portfolio Sections:</strong></p>
 <ul>
@@ -46,7 +45,7 @@ Christopher DeBoy's Portfolio
 </ul>
 <hr />
 <h2>Contact</h2>
-<p><img src="/home/chris/Projects/8bitprodigy.github.io/img/contact.svg" alt="contact.svg" /></p>
+<p><img src="img/contact.svg" alt="contact.svg" /></p>
 <hr />
 <h1>Programming</h1>
 <hr />
@@ -115,7 +114,7 @@ Christopher DeBoy's Portfolio
 </ul>
 <hr />
 <h3>[RZZNNV2N](<a href="https://8bitprodigy.itch.io/rzznnv2n">RZZNNV2N by 8bitprodigy</a>)</h3>
-<p><img src="/home/chris/Projects/8bitprodigy.github.io/img/RZZNNV2N.jpg" alt="RZZNNV2N.jpg" /></p>
+<p><img src="img/RZZNNV2N.jpg" alt="RZZNNV2N.jpg" /></p>
 <p>This is a simple challenge game I made, where you navigate a helicopter through a gauntlet of challenges, increasing in difficulty with each level. Made in Godot 2.X, it was a sequel to my prior game, <a href="https://8bitprodigy.itch.io/rzznnvzn">RZZNNVZN</a>, which was made in JavaScript using <a href="https://melonjs.org/">MelonJS</a>.</p>
 <hr />
 <h3>Magical Girl FPS</h3>
@@ -191,17 +190,17 @@ Christopher DeBoy's Portfolio
 <p>This is a work-in-progress roguelike I've been working on for the GameBoy in C and GBDK. It's pretty early on, but the basic skeleton of dungeon generation is implemented.</p>
 <hr />
 <h3><a href="https://github.com/8bitprodigy/nrpnc">NRPNC</a></h3>
-<p><img src="/home/chris/Projects/8bitprodigy.github.io/img/nrpnc.svg" alt="nrpnc.svg" /></p>
-<p><img src="/home/chris/Projects/8bitprodigy.github.io/img/nrpnc_screenshot.png" alt="nrpnc_screenshot.png" /></p>
+<p><img src="img/nrpnc.svg" alt="nrpnc.svg" /></p>
+<p><img src="img/nrpnc_screenshot.png" alt="nrpnc_screenshot.png" /></p>
 <p>This is an RPN (Reverse Polish Notation) calculator in Nim. It operates with a stack-based language with if/else statements, variables, and function declaration, which should, in theory, make it turing-complete.</p>
 <hr />
 <h3><a href="https://github.com/8bitprodigy/nute">N.U.T.E.</a></h3>
-<p><img src="/home/chris/Projects/8bitprodigy.github.io/img/nute_screenshot.png" alt="nute_screenshot.png" /></p>
+<p><img src="img/nute_screenshot.png" alt="nute_screenshot.png" /></p>
 <p>The Nim Unstructured/Useless Text Editor. This is a line text editor I made as an exercise to learn Nim and make use of its built in types. It stores a document line by line in an AVL tree, and it makes editing the text document much like entering a program into an 80's microcomputer. To enter text, you type the number for its line, followed by a space, and then the text you wish to enter. If there's a line number collision, it replaces the old line, but if not, it's entered into the AVL tree, which then self-balances.</p>
 <hr />
 <p><a href="https://codeberg.org/San_Bernardino_Operation/AtlasWM">AtlasWM</a></p>
-<p><img src="/home/chris/Projects/8bitprodigy.github.io/img/awm_logo.svg" alt="awm_logo.svg" /></p>
-<p><img src="/home/chris/Projects/8bitprodigy.github.io/img/awm_screenshot.png" alt="awm_screenshot.png" /></p>
+<p><img src="img/awm_logo.svg" alt="awm_logo.svg" /></p>
+<p><img src="img/awm_screenshot.png" alt="awm_screenshot.png" /></p>
 <p>This is the Atlas Window Manager. AtlasWM aims to be a lightweight, but featureful, and user-friendly window manager for X11, based on Joe's Window Manager (JWM), that only uses permissively-licensed code and libraries, as it will be the default window manager for AcephalOS and eventually PrometheusOS.</p>
 <p>Currently, I've replaced Cairo/libRSVG with <a href="https://github.com/sammycage/plutosvg">PlutoSVG</a>, and have enhanced the customizability of the motif theme to enable greater readability, and am currently working on replacing Pango/XFT with <a href="https://github.com/tomolt/libschrift">libSchrift</a>. I intend to extend its features, with some of the main ones being tababble windows, like in Haiku or FluxBox, and a global menu panel item.</p>
 <p>AtlasWM is currently in alpha stages, and most planned features are not yet implemented. Many things are likely subject to change, so it is not recommended for daily use.</p>
@@ -438,26 +437,25 @@ Christopher DeBoy's Portfolio
 <h1>Graphic Design</h1>
 <hr />
 <h3><a href="https://github.com/8bitprodigy/liver">Liver</a></h3>
-<p><img src="/home/chris/Projects/8bitprodigy.github.io/img/liver.svg" alt="liver.svg" /></p>
+<p><img src="img/liver.svg" alt="liver.svg" /></p>
 <p>This is the typeface used throughout this document. Liver is a public-domain sans-serif font in the style of Goma/Shin-Go/Rodin/Saira, modeled with screens in mind.</p>
 <p>Comes in regular and mono variants. Bold variant in the works.</p>
 <hr />
 <h2>Logos</h2>
-<p><img src="/home/chris/Projects/8bitprodigy.github.io/img/AcephalOS_logo.png" alt="AcephalOS_logo.png" /></p>
+<p><img src="img/AcephalOS_logo.png" alt="AcephalOS_logo.png" /></p>
 <h4>AcephalOS logo</h4>
 <p>Logo I made for a FreeBSD-based OS I am working on.</p>
-<p><img src="/home/chris/Projects/8bitprodigy.github.io/img/san_bernardino_operation.png" alt="san_bernardino_operation.png" /></p>
+<p><img src="img/san_bernardino_operation.png" alt="san_bernardino_operation.png" /></p>
 <h4>San Bernardino Operation logo</h4>
 <p>Logo I made for the organization to work on AcephalOS.</p>
-<p><img src="/home/chris/Projects/8bitprodigy.github.io/img/iortcw.png" alt="iortcw.png" /></p>
+<p><img src="img/iortcw.png" alt="iortcw.png" /></p>
 <h4>ioRTCW</h4>
-<p><img src="/home/chris/Projects/8bitprodigy.github.io/img/Newioq3.png" alt="Newioq3.png" /></p>
+<p><img src="img/Newioq3.png" alt="Newioq3.png" /></p>
 <h4>Old ioQuake3 logo</h4>
-<p><img src="/home/chris/Projects/8bitprodigy.github.io/img/logoFinal2.png" alt="logoFinal2.png" /></p>
+<p><img src="img/logoFinal2.png" alt="logoFinal2.png" /></p>
 <h4>The Gore Effect Facebook logo</h4>
 <p>In addition to the above logos, all other logos on this page were designed by myself.</p>
 
-                </span>
             </div>
         </div>
     </body>

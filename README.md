@@ -22,10 +22,10 @@ Here are some links to my profiles:
 
 **Portfolio Sections:**
 
-- [Contact info](https://8bitprodigy.github.io/#contact)
-- [Programming](https://8bitprodigy.github.io/#programming)
-- [3D Art & Animation](https://8bitprodigy.github.io/#3d_art_animation)
-- [Graphic Design](https://8bitprodigy.github.io/#graphic_design)
+- [Contact info](#contact)
+- [Programming](#programming)
+- [3D Art & Animation](#3d_art_animation)
+- [Graphic Design](#graphic_design)
 
 ---
 

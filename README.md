@@ -24,7 +24,7 @@ Here are some links to my profiles:
 
 - [Contact info](#contact)
 - [Programming](#programming)
-- [3D Art & Animation](#3d-art-&-animation)
+- [3D Art & Animation](#3d-art-amp-animation)
 - [Graphic Design](#graphic-design)
 
 ---

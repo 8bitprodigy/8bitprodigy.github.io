@@ -95,32 +95,16 @@ In the meantime, the project has already been a valuable prototype, teaching me 
         </a>
 </center>
 
-This is a first person shooter controller I made in the Godot engine. I'm quite proud of how it's turning out and it includes the following features:
+This is a first-person shooter controller I built in the Godot engine. I’m proud of how it’s turning out — it already supports a wide range of movement and weapon systems:
 
-- Walking, stair-stepping, crouching, leaning, sprinting, sneaking, jumping, Source Engine-style ladder climbing, and swimming
-- Head-bobbing dependent upon speed and ambulation type
-- Procedural weapon sway, bobbing, and inertia
-- Weapons have procedural vertical and horizontal muzzle climb, recoil, accuracy, and precision settings.
-- Bullet spread can be affected by how long you fire. If the barrel overheats, that could permanently affect accuracy and precision.
-- Bullets are projectiles that travel through space over time and are affected by gravity. Their trajectory is determined when they're fired.
-- Bullets leave material-dependent decals on impact -- wood splinters, metal dents, glass cracks, dirt craters, etc...
-- Buttons, dials, doors, and gates are available as interactable elements and can have their inputs and outputs chained together like in the Source Engine.
+- **Player movement**: walking, stair-stepping, crouching, leaning, sprinting, sneaking, jumping, swimming, and Source Engine–style ladder climbing
+- **Camera feel**: speed-dependent head-bobbing
+- **Weapons**: procedural sway, bobbing, and inertia; vertical/horizontal recoil; customizable accuracy and precision
+- **Ballistics**: projectiles affected by gravity with trajectory fixed at fire time; accuracy affected by sustained fire and barrel overheating
+- **Impact effects**: material-specific decals (wood splinters, metal dents, glass cracks, dirt craters, etc.)
+- **Interaction system**: buttons, dials, doors, and gates with chainable inputs/outputs, inspired by the Source Engine
 
----
-
-### [Mech Controller Demo](https://github.com/8bitprodigy/mech_demo)
-
-<video controls>
-        <source src="videos/mech_controller.mp4" type="video/mp4" />
-</video>
-
-This is a mech controller demo I created in the Godot game engine. It is a minimal proof-of-concept and includes the following features:
-
-- Tank reticle to show leg orientation relative to turret orientation
-- Aiming is driven by mouse direction, rather than mapped directly to mouse movement.
-- movement is relative to leg orientation. Legs are rotated by key inputs.
-- Thrusters/jet pack
-- Skybox and endless plane visualizer
+The goal is to capture the responsiveness and physicality of classic FPS mechanics while keeping the system highly extensible for new features.
 
 ---
 
@@ -139,13 +123,35 @@ This is a mech controller demo I created in the Godot game engine. It is a minim
         </a>
 </center>
 
-This is a six degrees of freedom (like in the Descent series) controller demo I created in the Godot game engine. It is a minimal proof-of-concept and includes the following features:
+A spaceflight controller inspired by the classic Descent series, demonstrating full 3D movement and rotation systems. This networked multiplayer prototype showcases advanced physics programming and real-time synchronization.
 
-- Six degrees of rotation
-- Angular inertia
-- Movement along all 3 axes relative to orientation
-- Networked player controllers
-- Skybox
+**Features:**
+- **Complete 6DOF Movement**: Full rotation and translation along all three axes
+- **Realistic Physics**: Angular momentum and inertia modeling for authentic spaceflight feel  
+- **Orientation-Relative Controls**: Movement directions based on ship orientation rather than world coordinates
+- **Multiplayer Ready**: Networked player controllers with real-time synchronization
+- **Space Environment**: Custom skybox for immersive testing
+
+Built in Godot using GDScript. This project demonstrates my experience with complex 3D physics systems and networked multiplayer implementation.
+
+---
+
+### [Mech Controller Demo](https://github.com/8bitprodigy/mech_demo)
+
+<video controls>
+        <source src="videos/mech_controller.mp4" type="video/mp4" />
+</video>
+
+A mech piloting simulation that demonstrates complex vehicle control systems. This prototype showcases realistic mech movement and combat mechanics.
+
+**Features:**
+- **Independent Controls**: Legs and turret rotate separately, with a tank-style reticle showing their relative positions
+- **Rate-Limited Aiming**: Turret rotation follows mouse movement direction with speed constraints, similar to Battlefield's vehicle aiming system
+- **Authentic Movement**: Walking direction follows leg orientation, not camera view, creating a genuine mech piloting feel
+- **Jetpack System**: Thruster-based flight mechanics for vertical mobility
+- **Test Environment**: Skybox and infinite ground plane for movement testing
+
+Built in Godot using GDScript. This project demonstrates my approach to creating alternative character controls and intuitive control schemes for complex mechanical systems.
 
 ---
 
@@ -226,26 +232,6 @@ This was a 3D Gauntlet-style game I was working on that the project seems to hav
 
 ---
 
-### [GameBoy Color DVD Screensaver demo### ](https://8bitprodigy.github.io/)
-
-<video controls>
-        <source src="videos/gb_dvd_screensaver.mp4" type="video/mp4" />
-</video>
-
-This is a simple demo I made using GBDK to get familiar with the library. It features a DVD Video logo as a metasprite that bounces around the screen and changes color on collision.
-
----
-
-### [GameBoy Roguelike](https://codeberg.org/chris_deboy/GameBoy_Roguelike)
-
-<video controls>
-        <source src="videos/gb_roguelike.mp4" type="video/mp4" />
-</video>
-
-This is a work-in-progress roguelike I've been working on for the GameBoy in C and GBDK. It's pretty early on, but the basic skeleton of dungeon generation is implemented.
-
----
-
 ### [NRPNC](https://github.com/8bitprodigy/nrpnc)
 
 ![nrpnc.svg]( img/nrpnc.svg)
@@ -275,6 +261,27 @@ This is the Atlas Window Manager. AtlasWM aims to be a lightweight, but featuref
 Currently, I've replaced Cairo/libRSVG with [PlutoSVG](https://github.com/sammycage/plutosvg), and have enhanced the customizability of the motif theme to enable greater readability, and am currently working on replacing Pango/XFT with [libSchrift](https://github.com/tomolt/libschrift). I intend to extend its features, with some of the main ones being tababble windows, like in Haiku or FluxBox, and a global menu panel item.  
 
 AtlasWM is currently in alpha stages, and most planned features are not yet implemented. Many things are likely subject to change, so it is not recommended for daily use.
+
+
+---
+
+### [GameBoy Color DVD Screensaver demo### ](https://8bitprodigy.github.io/)
+
+<video controls>
+        <source src="videos/gb_dvd_screensaver.mp4" type="video/mp4" />
+</video>
+
+This is a simple demo I made using GBDK to get familiar with the library. It features a DVD Video logo as a metasprite that bounces around the screen and changes color on collision.
+
+---
+
+### [GameBoy Roguelike](https://codeberg.org/chris_deboy/GameBoy_Roguelike)
+
+<video controls>
+        <source src="videos/gb_roguelike.mp4" type="video/mp4" />
+</video>
+
+This is a work-in-progress roguelike I've been working on for the GameBoy in C and GBDK. It's pretty early on, but the basic skeleton of dungeon generation is implemented.
 
 ---
 

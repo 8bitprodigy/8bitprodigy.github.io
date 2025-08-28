@@ -58,7 +58,7 @@ Here are some links to my profiles:
         </a>
 </center>
 
-This is a first person shooter controller I made in the Godot engine. I got pretty far along and it includes the following features:
+This is a first person shooter controller I made in the Godot engine. I'm quite proud of how it's turning out and it includes the following features:
 
 - Walking, stair-stepping, crouching, leaning, sprinting, sneaking, jumping, Source Engine-style ladder climbing, and swimming
 - Head-bobbing dependent upon speed and ambulation type

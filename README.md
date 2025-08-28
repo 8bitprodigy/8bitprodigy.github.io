@@ -39,6 +39,43 @@ Here are some links to my profiles:
 
 ---
 
+### [Kolibri Engine](https://github.com/8bitprodigy/kolibri_engine)
+
+This is a minimalist 3D game engine I wrote in C using raylib, weighing in at under 3,000 lines of code.
+Its goals are education, hacking/modification, and lightweight but legitimate game development. By focusing only on the core essentials of what makes an engine, it stands apart from conventional engines that accumulate large feature sets.
+
+Currently it includes:
+
+- `Engine`: central loop management (run, pause, unpause, exit), coordinating all systems
+- `Head`: couples a render surface with a camera and event callbacks
+- `Entity system`: entities with behavior defined via callbacks
+- `Scene interface`: generic dependency-injection model for different scene types
+- `CollisionScene`: entity–entity collisions via spatial hashing
+- `Renderer`: frustum culling (sphere–frustum) and transparent object sorting
+
+Each public-facing system exposes vtables for plugging in custom behaviors. This makes the engine suitable both for simple games and as a foundation for building more complete, specialized engines.
+
+It's currently in alpha, but already demonstrates the core principles of game engine architecture in a compact, accessible way.
+
+---
+
+### [NERC](https://github.com/8bitprodigy/nerc)
+
+NERC is a static site generator written in Nim — deliberately minimal, fast, and lightweight.
+Unlike traditional web frameworks that rely on heavy interpreted runtimes, NERC takes an anti-framework approach: it’s compiled, nimble, and designed to get out of your way.
+When run, it recursively scans the current directory, converts Markdown files into HTML, builds a navigation sidebar from the folder structure, and applies templates and styles inherited from parent directories.
+I use it to generate sites hosted on GitHub (including this portfolio, minus the sidebar), and it can also be run directly on a web server to regenerate pages automatically when content is updated.
+
+---
+
+### [Face-Off!](https://github.com/8bitprodigy/Face-Off)
+
+Face-Off is a simple clone of FaceBall 2000/Midi Maze developed for the Sega Dreamcast and Linux using raylib, with future plans for ports to platforms such as the Nintendo 64 and Sony PSP.
+It is currently on hold while I focus on bringing the Kolibri Engine to a usable state, after which Face-Off will be transitioned to run on that engine. 
+In the meantime, the project has already been a valuable prototype, teaching me a great deal about engine architecture and directly shaping Kolibri’s design.
+
+---
+
 ### [Godot FPS Controller](https://github.com/8bitprodigy/WestMonster_FPS_Base)
 
 <video id="fps_controller" controls>

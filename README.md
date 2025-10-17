@@ -51,7 +51,7 @@ Currently it includes:
 - `Entity system`: entities with behavior defined via callbacks
 - `Scene interface`: generic dependency-injection model for different scene types
 - `CollisionScene`: entity–entity collisions via spatial hashing
-- `Renderer`: frustum culling (sphere–frustum) and transparent object sorting
+- `Renderer`: frustum culling (sphere–frustum) and eventually transparent object sorting
 
 Each public-facing system exposes vtables for plugging in custom behaviors. This makes the engine suitable both for simple games and as a foundation for building more complete, specialized engines.
 
@@ -85,11 +85,11 @@ In the meantime, the project has already been a valuable prototype, teaching me 
         <a id="fps_1" href="#FPS_CONTROLLER" onclick="changeVideoSrc('fps_controller', 'fps_controller_1')">
                 Demo 1
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="fps_2" href="#FPS_CONTROLLER" onclick="changeVideoSrc('fps_controller', 'fps_controller_2')">
                 Demo 2
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="fps_3" href="#FPS_CONTROLLER" onclick="changeVideoSrc('fps_controller', 'fps_controller_3')">
                 Demo 3
         </a>
@@ -117,7 +117,7 @@ The goal is to capture the responsiveness and physicality of classic FPS mechani
         <a id="6dof_1" href="#6DOF_CONTROLLER" onclick="changeVideoSrc('6dof_controller', '6dof_demo_1')">
                 Demo 1
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="6dof_2" href="#6DOF_CONTROLLER" onclick="changeVideoSrc('6dof_controller', '6dof_demo_2')">
                 Demo 2
         </a>
@@ -126,6 +126,7 @@ The goal is to capture the responsiveness and physicality of classic FPS mechani
 A spaceflight controller inspired by the classic Descent series, demonstrating full 3D movement and rotation systems. This networked multiplayer prototype showcases advanced physics programming and real-time synchronization.
 
 **Features:**
+
 - **Complete 6DOF Movement**: Full rotation and translation along all three axes
 - **Realistic Physics**: Angular momentum and inertia modeling for authentic spaceflight feel  
 - **Orientation-Relative Controls**: Movement directions based on ship orientation rather than world coordinates
@@ -145,6 +146,7 @@ Built in Godot using GDScript. This project demonstrates my experience with comp
 A mech piloting simulation that demonstrates complex vehicle control systems. This prototype showcases realistic mech movement and combat mechanics.
 
 **Features:**
+
 - **Independent Controls**: Legs and turret rotate separately, with a tank-style reticle showing their relative positions
 - **Rate-Limited Aiming**: Turret rotation follows mouse movement direction with speed constraints, similar to Battlefield's vehicle aiming system
 - **Authentic Movement**: Walking direction follows leg orientation, not camera view, creating a genuine mech piloting feel
@@ -170,19 +172,19 @@ This is a simple challenge game I made, where you navigate a helicopter through 
         <a id="mgirl_0" href="#MGIRL" onclick="changeImgSrc('MGIRL', '3d/magical_girl.jpg')">
                 Mall hub level
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="mgirl_1" href="#MGIRL" onclick="changeImgSrc('MGIRL', '3d/magical_girl-0.jpg')">
                 Firing
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="mgirl_2" href="#MGIRL" onclick="changeImgSrc('MGIRL', '3d/magical_girl-1.jpg')">
                 After firing for a bit
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="mgirl_3" href="#MGIRL" onclick="changeImgSrc('MGIRL', '3d/magical_girl-3.jpg')">
                 Some world models I had made
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="mgirl_4" href="#MGIRL" onclick="changeImgSrc('MGIRL', '3d/magical_girl_staff.jpg')">
                 The heart wand
         </a>
@@ -211,15 +213,15 @@ This was a magical girl-themed FPS I was working on in Godot. Unfortunately, I'm
         <a id="gaunt_0" href="#GAUNT" onclick="changeImgSrc('GAUNT', '3d/3d_gauntlet_wiz_skelly.jpg')">
                 Fighting Skeletons as the Wizard
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="gaunt_1" href="#GAUNT" onclick="changeImgSrc('GAUNT', '3d/3d_gauntlet_barbarian_ghosts.jpg')">
                 Fighting ghosts as the Barbarian
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="gaunt_2" href="#GAUNT" onclick="changeImgSrc('GAUNT', '3d/3d_gauntlet.jpg')">
                 Items
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="gaunt_3" href="#GAUNT" onclick="changeImgSrc('GAUNT', '3d/3d_gauntlet_potion.jpg')">
                 Potion
         </a>
@@ -262,7 +264,6 @@ Currently, I've replaced Cairo/libRSVG with [PlutoSVG](https://github.com/sammy
 
 AtlasWM is currently in alpha stages, and most planned features are not yet implemented. Many things are likely subject to change, so it is not recommended for daily use.
 
-
 ---
 
 ### [GameBoy Color DVD Screensaver demo### ](https://8bitprodigy.github.io/)
@@ -298,47 +299,47 @@ Some 3D models I've worked on, some of which are animated. This is an incomplete
         <a id="glock_1" href="#GLOCK" onclick="changeImgSrc('GLOCK', '3d/glock/3qfl.png')">
                 3-Quarter front left
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="glock_1" href="#GLOCK" onclick="changeImgSrc('GLOCK', '3d/glock/3qfr.png')">
                 3-Quarter front right
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="glock_1" href="#GLOCK" onclick="changeImgSrc('GLOCK', '3d/glock/3qrl.png')">
                 3-Quarter rear left
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="glock_1" href="#GLOCK" onclick="changeImgSrc('GLOCK', '3d/glock/3qrr.png')">
                 3-Quarter rear right
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="glock_1" href="#GLOCK" onclick="changeImgSrc('GLOCK', '3d/glock/front.png')">
                 Front
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="glock_1" href="#GLOCK" onclick="changeImgSrc('GLOCK', '3d/glock/rear.png')">
                 Rear
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="glock_1" href="#GLOCK" onclick="changeImgSrc('GLOCK', '3d/glock/side_l.png')">
                 Left
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="glock_1" href="#GLOCK" onclick="changeImgSrc('GLOCK', '3d/glock/side_r.png')">
                 Right
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="glock_1" href="#GLOCK" onclick="changeImgSrc('GLOCK', '3d/glock/locked_l.png')">
                 Locked open, left
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="glock_1" href="#GLOCK" onclick="changeImgSrc('GLOCK', '3d/glock/locked_r.png')">
                 Locked open, right
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="glock_1" href="#GLOCK" onclick="changeImgSrc('GLOCK', '3d/glock/under_slide.png')">
                 Under slide
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="glock_1" href="#GLOCK" onclick="changeImgSrc('GLOCK', '3d/glock/Glock17.png')">
                 Texture
         </a>
@@ -375,51 +376,51 @@ An intro sequence I made for the YouTube channel [MetalJesusRocks](https://www.
         <a id="samus_1" href="#SAMUS" onclick="changeImgSrc('SAMUS', '3d/arm_cannon/animations.gif')">
                 Animations
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="samus_2" href="#SAMUS" onclick="changeImgSrc('SAMUS', '3d/arm_cannon/3Q.png')">
                 3-Quarter clay render
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="samus_2" href="#SAMUS" onclick="changeImgSrc('SAMUS', '3d/arm_cannon/3QOpen.png')">
                 3-Quarter clay render, open
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="samus_2" href="#SAMUS" onclick="changeImgSrc('SAMUS', '3d/arm_cannon/fpView.png')">
                 First person clay render
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="samus_2" href="#SAMUS" onclick="changeImgSrc('SAMUS', '3d/arm_cannon/fpViewOpen.png')">
                 First person clay render, open
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="samus_2" href="#SAMUS" onclick="changeImgSrc('SAMUS', '3d/arm_cannon/front.png')">
                 Front clay render
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="samus_2" href="#SAMUS" onclick="changeImgSrc('SAMUS', '3d/arm_cannon/side.png')">
                 Side clay render
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="samus_2" href="#SAMUS" onclick="changeImgSrc('SAMUS', '3d/arm_cannon/top.png')">
                 Top clay render
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="samus_2" href="#SAMUS" onclick="changeImgSrc('SAMUS', '3d/arm_cannon/armCannonTex.png')">
                 Texture
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="samus_2" href="#SAMUS" onclick="changeImgSrc('SAMUS', '3d/arm_cannon/3QTex3.png')">
                 3-Quarter textured
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="samus_2" href="#SAMUS" onclick="changeImgSrc('SAMUS', '3d/arm_cannon/3QOpenTex3.png')">
                 3-Quarter textured, open
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="samus_2" href="#SAMUS" onclick="changeImgSrc('SAMUS', '3d/arm_cannon/fpViewTex3.png')">
                 First person textured
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="samus_2" href="#SAMUS" onclick="changeImgSrc('SAMUS', '3d/arm_cannon/sideTex3.png')">
                 Side textured
         </a>
@@ -436,11 +437,11 @@ Samus Aran arm cannon I made for a Quake Mod I was working on. Made using forwar
         <a id="robot_1" href="#ROBOT" onclick="changeImgSrc('ROBOT', '3d/ROBOT_ANIM_C0.gif')">
                 Walking, ready
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="robot_2" href="#ROBOT" onclick="changeImgSrc('ROBOT', '3d/ROBOT_ANIM_D.gif')">
                 Crouch-walking, ready
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="robot_3" href="#ROBOT" onclick="changeImgSrc('ROBOT', '3d/ROBOT_ANIM4.gif')">
                 Walking, no gun
         </a>
@@ -457,27 +458,27 @@ A robot model I created, inspired by some outdoor security cameras I saw around 
         <a id="star_1" href="#STAR" onclick="changeImgSrc('STAR', '3d/MechWalk1.gif')">
                 Mech, Walking
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="star_2" href="#STAR" onclick="changeImgSrc('STAR', '3d/MechWalk.gif')">
                 Mech, Walking, alternate view 1
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="star_3" href="#STAR" onclick="changeImgSrc('STAR', '3d/MechWalk0.gif')">
                 Mech, Walking, alternate view 2
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="star_4" href="#STAR" onclick="changeImgSrc('STAR', '3d/hmv_pic3.png')">
                 HMV
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="star_5" href="#STAR" onclick="changeImgSrc('STAR', '3d/tank_pic9.png')">
                 Tank
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="star_6" href="#STAR" onclick="changeImgSrc('STAR', '3d/turret_1.png')">
                 Sentry turret
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="star_7" href="#STAR" onclick="changeImgSrc('STAR', '3d/jet.jpg')">
                 Jet with Texture
         </a>
@@ -494,27 +495,27 @@ Various models I made for a game I was working on with a friend called "Star Rai
         <a id="guns_1" href="#GUNS" onclick="changeImgSrc('GUNS', '3d/muziSnapTex.png')">
                 Micro-Uzi
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="guns_2" href="#GUNS" onclick="changeImgSrc('GUNS', '3d/render2cb.png')">
                 Kriss Vektor
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="guns_3" href="#GUNS" onclick="changeImgSrc('GUNS', '3d/sgunSnapshotWTEX.png')">
                 Ithaca 37 Stakeout
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="guns_4" href="#GUNS" onclick="changeImgSrc('GUNS', '3d/texturedShadedRender3.png')">
                 AR-15
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="guns_5" href="#GUNS" onclick="changeImgSrc('GUNS', '3d/render6-.png')">
                 FAMAS, untextured
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="guns_3" href="#GUNS" onclick="changeImgSrc('GUNS', '3d/render.png')">
                 Recoilless Rifle, clay render
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="guns_3" href="#GUNS" onclick="changeImgSrc('GUNS', '3d/render8.png')">
                 Saiga-12, untextured
         </a>
@@ -531,15 +532,15 @@ Various low-poly, stylized weapon models I have created over the years.
         <a id="wallpaper_1" href="#WALLPAPER" onclick="changeImgSrc('WALLPAPER', '3d/goreEffectHD_glow.png')">
                 Synthwave Terrain
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="wallpaper_2" href="#WALLPAPER" onclick="changeImgSrc('WALLPAPER', '3d/goreEffectHD_glow1.jpg')">
                 Synthwave Terrain, alternate glow
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="wallpaper_3" href="#WALLPAPER" onclick="changeImgSrc('WALLPAPER', '3d/vaporscapeColorSolids_8.png')">
                 Synthwave Color Solids
         </a>
-        &emsp;|&emsp;
+         | 
         <a id="wallpaper_4" href="#WALLPAPER" onclick="changeImgSrc('WALLPAPER', '3d/burger4.png')">
                 RetroWave fast food
         </a>
@@ -565,14 +566,11 @@ Comes in regular and mono variants. Bold variant in the works.
 
 ## Logos
 
-
 ![AcephalOS_logo.png]( img/AcephalOS_logo.png)
 
 #### AcephalOS logo
 
 Logo I made for a FreeBSD-based OS I am working on.
-
-
 
 ![san_bernardino_operation.png]( img/san_bernardino_operation.png)
 
@@ -580,19 +578,13 @@ Logo I made for a FreeBSD-based OS I am working on.
 
 Logo I made for the organization to work on AcephalOS.
 
-
-
 ![iortcw.png]( img/iortcw.png)
 
 #### ioRTCW
 
-
-
 ![Newioq3.png]( img/Newioq3.png)
 
 #### Old ioQuake3 logo
-
-
 
 ![logoFinal2.png]( img/logoFinal2.png)
 

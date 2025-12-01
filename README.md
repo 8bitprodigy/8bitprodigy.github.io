@@ -41,6 +41,10 @@ Here are some links to my profiles:
 
 ### [Kolibri Engine](https://github.com/8bitprodigy/kolibri_engine)
 
+<video id="kolibri_demo" controls>
+        <source src="videos/kolibri_demo_0.mp4" type="video/mp4" />
+</video>
+
 This is a minimalist 3D game engine I wrote in C using raylib, weighing in at under 3,000 lines of code.
 Its goals are education, hacking/modification, and lightweight but legitimate game development. By focusing only on the core essentials of what makes an engine, it stands apart from conventional engines that accumulate large feature sets.
 

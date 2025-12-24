@@ -49,7 +49,7 @@ Here are some links to my profiles:
                 Kolibri demo 1
         </a>
          | 
-        <a id="kolibri_2" href="#FPS_CONTROLLER" onclick="changeVideoSrc('kolibri_demo', 'kolibri_demo_0')">
+        <a id="kolibri_2" href="#FPS_CONTROLLER" onclick="changeVideoSrc('kolibri_demo', 'kolibri_demo_1')">
                 Kolibri demo 2
         </a>
 </center>

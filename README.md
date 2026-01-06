@@ -52,6 +52,14 @@ Here are some links to my profiles:
         <a id="kolibri_2" href="#FPS_CONTROLLER" onclick="changeVideoSrc('kolibri_demo', 'kolibri_demo_1')">
                 Kolibri demo 2
         </a>
+         | 
+        <a id="kolibri_3" href="#FPS_CONTROLLER" onclick="changeVideoSrc('kolibri_demo', 'kolibri_demo_2')">
+                Kolibri demo 3 (weapons showcase)
+        </a>
+         | 
+        <a id="kolibri_4" href="#FPS_CONTROLLER" onclick="changeVideoSrc('kolibri_demo', 'kolibri_demo_3')">
+                Kolibri demo 4 (loading screens)
+        </a>
 </center>
 
 This is a minimalist 3D game engine I wrote in C using raylib, weighing in at under 3,000 lines of code.
